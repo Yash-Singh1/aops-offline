@@ -1,0 +1,8 @@
+# Build output
+images/
+wiki/
+articles.json
+results.txt
+
+# Dependencies
+node_modules/

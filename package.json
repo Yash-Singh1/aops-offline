@@ -1,0 +1,26 @@
+{
+  "name": "aops-offline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yash Singh",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.17.12",
+    "esbuild-runner": "^2.2.2",
+    "inquirer": "^9.1.5",
+    "jsdom": "^21.1.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/jsdom": "^21.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "eslint": "^8.36.0",
+    "typescript": "^5.0.2"
+  }
+}
