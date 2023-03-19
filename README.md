@@ -22,3 +22,15 @@ There are four scripts:
 - `content` - Retrieves the content of all articles in the `articles.json` file, also adds images.
 - `sanitize` - Sanitizes the HTML of all downloaded articles.
 - `search` - Runs a search query using `grep` and `sed` on the articles.
+
+Prefix scripts with `pnpm` to run them, e.g. `pnpm articles`.
+
+## Build Output
+
+You can preview the build output by running a local server:
+
+```bash
+python -m http.server
+```
+
+The images are automatically resolved to the `images` folder. The `wiki` contains all the HTML. The `articles.json` contains a list of all articles. The `search` scripts outputs a list of all article URLs into the `results.txt` file.
