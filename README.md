@@ -23,7 +23,7 @@ There are four scripts:
 - `sanitize` - Sanitizes the HTML of all downloaded articles.
 - `search` - Runs a search query using `grep` and `sed` on the articles.
 
-Prefix scripts with `pnpm` to run them, e.g. `pnpm articles`.
+Prefix scripts with `pnpm run` to run them, e.g. `pnpm run articles`.
 
 ## Build Output
 
